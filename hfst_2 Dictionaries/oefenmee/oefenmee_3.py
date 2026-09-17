@@ -4,3 +4,13 @@ persoonsinfo = { # info over een persoon
     "leeftijd": 32,
     "massa": 79
 }
+# Niveau 1
+# print(f"{persoonsinfo['naam']} is {persoonsinfo['leeftijd']} & weegt {persoonsinfo['massa']} kg.)")
+# Niveau 2
+# print( len( persoonsinfo ) )
+# Niveau 3
+# oogkleur = persoonsinfo["oogkleur"]
+# print(f"Deze persoon heeft {oogkleur} ogen.")
+# Niveau 4
+# naam = "Jan"
+# print(persoonsinfo[naam])

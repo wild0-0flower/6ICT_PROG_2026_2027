@@ -23,3 +23,14 @@ spelinfo = {
         }
     }
 }
+# Niv 2
+# print(spelinfo['speler2']['naam'])
+# print(spelinfo['speler1']['positie'])
+# print(spelinfo['speler2']['inventaris']['wapen'])
+# Niv 3
+# spelinfo['speler2']['inventaris']['goud'] = 0
+# print(spelinfo)
+# Niv 4
+# spelinfo['speler1']["hacker"] = False
+# spelinfo['speler2']["hacker"] = True
+# print(spelinfo)

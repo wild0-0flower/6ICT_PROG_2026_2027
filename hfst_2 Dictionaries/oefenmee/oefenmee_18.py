@@ -7,15 +7,12 @@ dambord_2D = [
     ['Z', 'W', 'Z', 'W', 'Z', 'W']]
 while True:
     rij = int(input("Geef een rij op: "))
-    rij = rij - 1
-    if rij not in dambord_2D:
+    if rij < 0 or rij >= len(dambord_2D):
         print("bestaat niet")
         break
     kolom = int(input("Geef een kolom op: "))
-    kolom = kolom - 1
-    if kolom not in dambord_2D:
+    if kolom < 0 or kolom >= len(dambord_2D[rij]):
         print("bestaat niet")
         break
     plaats = dambord_2D[rij][kolom]
     print(f"Op deze index staat {plaats}")
-    #werkt niet
